@@ -108,6 +108,10 @@ body {
   padding: 10px;
   flex-grow: 1; }
 
+.datatable__row-section--input-section {
+  width: 100%;
+}
+
 .datatable__row-section--button-section,
 .datatable__row-section--trello-section {
   margin-left: auto;
