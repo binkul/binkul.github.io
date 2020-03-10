@@ -108,10 +108,6 @@ body {
   padding: 10px;
   flex-grow: 1; }
 
-.datatable__row-section--input-section {
-  width: 100%;
-}
-
 .datatable__row-section--button-section,
 .datatable__row-section--trello-section {
   margin-left: auto;
@@ -132,8 +128,8 @@ body {
   letter-spacing: 0.6px; }
 
 .datatable__button {
-  color: #28a745;
-  background-color: #fff;
+  color: #fff;
+  background-color: #28a745;
   display: block;
   margin-bottom: 5px;
   font-weight: 400;
@@ -141,59 +137,12 @@ body {
   white-space: nowrap;
   vertical-align: middle;
   user-select: none;
-  border: 3px solid #28a745;
+  border: 1px solid transparent;
   padding: 8px 12px;
   font-size: 12px;
   min-width: 120px;
   line-height: 1.25;
-  border-radius: 4px;
-    
-  -webkit-transition: background 0.2s;
-  -moz-transition: background 0.2s;
-  -o-transition: background 0.2s;
-  transition: background 0.2s;
-  box-shadow: 5px 5px 3px rgb(20, 20, 20, 0.3);}
-
-.datatable__button span {
-  display: inline-block;
-  position: relative;
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
-}
-
-.datatable__button span:after {
-  content: '-->';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: 10px;
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
-}
-
-.datatable__button:hover span {
-  padding-right: 15px;
-}
-
-.datatable__button:hover span:after {
-  opacity: 1;
-  right: -10px;
-}
-
-.datatable__button:hover {
-  background-color: #28a745;
-  color: #fff;
-}
-
-.datatable__button:active {
-  background-color: #28a745;
-  box-shadow: 3px 3px 3px rgb(10, 10, 10, 0.6);
-  transform: translate(2px, 2px);
-}
+  border-radius: 4px; }
 
 .datatable__select {
   display: block;
