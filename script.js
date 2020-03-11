@@ -106,7 +106,7 @@ $(document).ready(function() {
   }
 
   function handleTaskDeleteRequest() {
-    var parentEl = $(this).parent().parent();
+    var parentEl = $(this).parents('[data-task-id]');
     var taskId = parentEl.attr('data-task-id');
     var requestUrl = apiRoot + 'deleteTask';
 
